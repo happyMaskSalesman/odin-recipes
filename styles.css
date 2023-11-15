@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&display=swap');
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.title {
+    font-family: "Dancing Script", 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: 30px;
+}
+
+a {
+    font-family: "Dancing Script", 'Times New Roman', Times, serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+}
+
+ul,
+ol {
+    list-style-type: none;
+    padding: 0;
+}
+
+a:hover {
+    animation-name: zoom;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes zoom {
+    0% {
+        font-size: 24px;
+    }
+    100% {
+        font-size: 28px;
+    }
+}
